@@ -1,0 +1,164 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+  }
+  .container header {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+    background: #f8f9fa;
+    box-shadow: 0rem 0.25rem 2rem -0.75rem rgba(0.45, 0.45, 0.45, 0.45);
+  }
+  .container header h1 {
+    font-size: 32px;
+    color: #fd377e;
+    font-family: "Nunito", sans-serif;
+  }
+  .container header h1 span {
+    color: black;
+  }
+  .container header button {
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 8px;
+    padding: 1rem;
+    border: none;
+    color: rgb(135, 143, 151);
+    cursor: pointer;
+  }
+  .container header button:hover {
+    background-color: #fd377e;
+    color: white;
+  }
+  .container main {
+    display: flex;
+    justify-content: space-around;
+    margin: 3.3rem;
+  }
+  .container main .navegando {
+    width: 30rem;
+  }
+  .container main .navegandoPorDinheiro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.65rem;
+  }
+  .container main .navegandoPorDinheiro h3 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #212529;
+  }
+  .container main .navegandoPorDinheiro aside button {
+    margin: 0 0.35rem;
+    height: 2.8rem;
+    width: 4.8rem;
+    border-radius: 8px;
+    border: none;
+    color: #868e96;
+    cursor: pointer;
+  }
+  .container main .navegandoPorDinheiro aside button:hover{
+    background-color: #fd377e;
+    color: white;
+  }
+  
+  .vazio p {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #868e96;
+  }
+  .vazio .containerVazio {
+    background: #f8f9fa;
+    border-radius: 8px;
+    height: 5.5rem;
+    width: 34rem;
+    border-left: 6px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0.64rem;
+    margin-bottom: 1.25rem;
+  }
+  .grande {
+    height:1rem;
+    width: 21rem;
+    border-radius: 5px;
+    background-color: #e9ecef;
+  }
+  .pequeno {
+    height: 1rem;
+    width: 4.6rem;
+    border-radius: 5px;
+    background-color: #e9ecef;
+  }
+  .sectionPreco {
+    height: 6rem;
+    width: 22.7rem;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.65rem;
+    margin-bottom: 1.2rem;
+  }
+  .sectionPreco aside h3 {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .sectionPreco aside p {
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #868e96;
+  }
+  .sectionPreco .preco {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fd377e;
+  }
+  @media (max-width: 900px) {
+    .container main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .vazio .containerVazio{
+      width: 80vw;
+    }
+    .navegandoPorDinheiro {
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .container main {
+      align-items: flex-start;
+    }
+    .container main .navegando {
+      width: 20rem;
+    }
+    .sectionForm {
+      width: 80vw;
+    }
+    .sectionPreco {
+      width: 80vw;
+    }
+    .grande {
+      width: 60vw;
+    }
+  }

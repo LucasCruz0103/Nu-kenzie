@@ -1,0 +1,72 @@
+.logica {
+    height: 100vh;
+    width: 100vw;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionLogica {
+    display: flex;
+  }
+  .sectionMensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5.65rem 3.75rem 5.65rem 7.5rem;
+    width: 340px;
+  }
+  .sectionMensagem h1 {
+    font-size: 32px;
+    color: #fd377e;
+  }
+  .sectionMensagem h1 span {
+    color: white;
+  }
+  .sectionMensagem p {
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  .sectionMensagem .alert {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .sectionMensagem button {
+    height: 3rem;
+    width: 15.2rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.82rem, 1.25rem, 0.82rem, 1.25rem;
+    background: rgba(253, 53, 126, 0.941);
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  @media (max-width: 1200px) {
+    img {
+      max-width: 18.75rem;
+      height: 18.75rem;
+    }
+    .sectionMensagem {
+      width: 12.5rem;
+    }
+  }
+  @media (max-width: 800px) {
+    .imagem {
+      display: none;
+    }
+    .sectionMensagem {
+      width: 9.38;
+    }
+    .sectionMensagem button {
+      width: 9.38rem;
+    }
+    .sectionLogica {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,95 @@
+.formComecandoACobrar {
+    height: 21.94rem;
+    width: 100%;
+    max-width: 22.70rem;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    padding: 1.88rem;
+    margin-bottom: 1.25rem;
+  }
+  .formComecandoACobrar  .descrever {
+    height: 9.38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .formComecandoACobrar .descrever label {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .formComecandoACobrar  .descrever .inputDescricao {
+    height: 3.33rem;
+    width: 100%;
+    max-width: 19.65;
+  
+    border-radius: 0.5rem;
+    padding: 0px, 1rem, 0px, 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 1rem;
+    background: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .formComecandoACobrar  .descrever  p {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #868e96;
+  }
+  .formComecandoACobrar  .valorLabels,
+  .valorInputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .formComecandoACobrar  .valorLabels  label {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .formComecandoACobrar  .valorInputs  input,
+  select {
+    padding: 0px 1rem;
+    background: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 100%;
+    max-width: 8rem;
+  }
+  .formComecandoACobrar button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.85rem 1.25rem;
+    width: 100%;
+    max-width: 20rem;
+    height: 3rem;
+    background: #fd377e;
+    border: 2px solid #fd377e;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
